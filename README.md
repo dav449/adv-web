@@ -8,6 +8,10 @@ https://www.coursera.org/learn/laravel-framework-and-php/home/module/1
 
 ### 1.2 Cú pháp PHP
 Mã PHP được đặt trong cặp thẻ như sau:
+```
+<?php
+
+```
 
 Một số điểm cú pháp cơ bản:
 
