@@ -142,9 +142,14 @@ Kết nối và thao tác với cơ sở dữ liệu.
 
 Control/Điều khiển nôi dung động (dynamic content) từ CSDL về View hoặc từ View về Model (CSDL).
 
-Xử lý xác thực người dùng (login, register).
+Xử lý các nghiệp vụ phát triển phần mềm: 
+Ví dụ: 
 
-Tích hợp dễ dàng với HTML, CSS, JavaScript.
++ Xử lý xác thực, định dạnh và phần quyền người dùng (login, register).
++ CRUD
++ Phân tích xử lý nghiệp vụ doanh nghiệp (business logic)
+
+Tích hợp dễ dàng với các framework Frontend, HTML, CSS, JavaScript.
 
 Tạo API hoặc làm việc với JSON, XML.
 
