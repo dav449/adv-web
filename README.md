@@ -76,22 +76,60 @@ while ($i < 5)
 
 ```
 
-// do...while $i = 0; do { echo $i; $i++; } while ($i < 5);
+// do...while
+```
 
-switch...case: $ngay = "thu hai"; switch ($ngay) { case "thu hai": echo "Hôm nay là đầu tuần."; break; default: echo "Không rõ ngày."; }
 
+$i = 0;
+do {
+  echo $i;
+  $i++;
+}
+while ($i < 5);
+
+```
+
+//Re nhanh switch..case
+
+
+switch...case: 
+```
+$ngay = "thu hai";
+switch ($ngay)
+{ case "thu hai":
+  echo "Hôm nay là đầu tuần.";
+  break;
+
+  case "thu ba":
+  echo "Hôm nay là thứ 3.";
+  break;
+
+  default: echo "Không rõ ngày.";
+}
+
+```
 ### 1.4 Hàm trong PHP
-Hàm là khối mã thực hiện một nhiệm vụ cụ thể, có thể tái sử dụng.
 
-Ví dụ: function chao($ten) { return "Xin chào, " . $ten; }
++ Giống Methods trong Class
++ Hàm là khối mã thực hiện một nhiệm vụ cụ thể, tái sử dụng.
+
+Ví dụ: 
+```
+function chao($ten)
+{
+   return "Xin chào, " . $ten;
+
+}
+
+```
 
 echo chao("Minh");
 
 Đặc điểm:
 
-Có thể có hoặc không tham số.
++ Có thể có hoặc không tham số.
 
-Có thể trả về giá trị bằng return.
++ Có thể trả về giá trị bằng return.
 
 PHP cũng hỗ trợ hàm ẩn danh (anonymous functions) và các hàm callback.
 
