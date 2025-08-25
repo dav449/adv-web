@@ -1,5 +1,5 @@
-Php programing
-chuong 1 : gioi thieu PHP va laravel khoa coursera (khoa 1)
+#**bold text**Php programing
+##chuong 1 : gioi thieu PHP va laravel khoa coursera (khoa 1)
 
 1.1 gioi thieu PHP
 
