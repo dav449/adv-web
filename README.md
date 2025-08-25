@@ -140,7 +140,7 @@ Xử lý dữ liệu từ biểu mẫu (form) người dùng.
 
 Kết nối và thao tác với cơ sở dữ liệu.
 
-Tạo nội dung động (dynamic content).
+Control/Điều khiển nôi dung động (dynamic content) từ CSDL về View hoặc từ View về Model (CSDL).
 
 Xử lý xác thực người dùng (login, register).
 
